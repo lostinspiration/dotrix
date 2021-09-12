@@ -20,6 +20,7 @@ use dotrix_core::input::{
 
 use dotrix_overlay::{ Overlay, Ui, Widget };
 
+pub use egui as native;
 pub use egui::*;
 
 const TEXTURE_NAME: &str = "egui::texture";
